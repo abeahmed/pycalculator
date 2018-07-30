@@ -71,8 +71,6 @@ t.goto(75,60)
 t.pendown()
 t.write("3",align="center",font=("futura",50,"normal"))
 
-
-
 t.penup()
 t.goto(0,50)
 t.pendown()
@@ -85,8 +83,6 @@ t.penup()
 t.goto(75,-40)
 t.pendown()
 t.write("6",align="center",font=("futura",50,"normal"))
-
-
 
 t.penup()
 t.goto(0,-50)
@@ -515,13 +511,8 @@ def handleClick(x,y):
         equal=False
         num=str(result)
         display=str(result2)
-       
     
 
-
-
 t.screen.onclick(handleClick)
-
-
 
 t.screen.mainloop()
